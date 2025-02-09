@@ -1,0 +1,97 @@
+{
+	"prefs": {
+		"public": {
+			"char_limit": 128000,
+			"name_limit": 128000,
+			"godword": null,
+			"runlevel": {
+				"godmode": 0,
+				"youtube": 0,
+				"joke": 0,
+				"color": 0,
+				"asshole": 0,
+				"pitch": 0,
+				"speed": 0,
+				"name": 0,
+				"sanitize": 0,
+				"pope": 0
+			},
+			"room_max": 512,
+			"owner": null,
+			"pitch": {
+				"max": 999,
+				"min": -999,
+				"default": "random"
+			},
+			"speed": {
+				"max": 200,
+				"min": -200,
+				"default": 150
+			},
+			"defaultName": "Stranger"
+		},
+		"private": {
+			"char_limit": 128000,
+			"name_limit": 128000,
+			"godword": null,
+			"runlevel": {
+				"godmode": 0,
+				"youtube": 0,
+				"joke": 0,
+				"color": 0,
+				"asshole": 0,
+				"pitch": 0,
+				"speed": 0,
+				"name": 0,
+				"sanitize": 0,
+				"pope": 0
+			},
+			"room_max": 1024,
+			"owner": null,
+			"pitch": {
+				"max": 999,
+				"min": -999,
+				"default": "random"
+			},
+			"speed": {
+				"max": 200,
+				"min": -200,
+				"default": 150
+			},
+			"defaultName": "Stranger"
+		}
+	},
+	"consoleOutput": true,
+	"log": {
+		"info": {
+			"level": "info",
+			"filename": "./logs/info.log",
+			"maxsize": "1024000",
+			"maxFiles": "3",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		},
+		"access": {
+			"level": "info",
+			"filename": "./logs/access.log",
+			"maxsize": "1024000",
+			"maxFiles": "3",
+		"handleExceptions": true,
+		"humanReadableUnhandledException": true
+		}
+	},
+	"bonziColors": [
+		"purple",
+		"black",
+		"green",
+		"red",
+		"royal",
+		"wood",
+		"brown"
+	],
+	"banLength": 1440,
+	"port": 2096,
+	"express": {
+		"serveStatic": true
+	}
+}
